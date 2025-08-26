@@ -30,7 +30,7 @@ class ArticlePage extends PageObject {
   }
 
   clickOnCommentButton() {
-    return `Click on the + ${this.commentButton}`;
+    return `Click on the ${this.commentButton}`;
   }
 
   assertPageOpened() {
